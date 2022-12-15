@@ -1,0 +1,52 @@
+<html>
+<head><title>Student Info</title>
+</head>
+<body>
+
+<h1 style="text-align: center;"><b><u>STUDENT INFORMATION</u></b></h1>
+<form>
+<p><b>Name of student:*</b><input type="text" name="name" placeholder="Enter your name" required></p>
+<p><b>Roll no.*</b><input type="text" name="roll" placeholder="Enter your Roll no." required></p>
+<p><b>Email Address:</b><input type="email" name="email" placeholder="xyz@abc.com" required></p>
+<p><b>Age:</b><input type="number" name="age"></p>
+<fieldset><legend><b>Gender</b></legend>
+
+	Male<input type="radio" name="gender" checked=" ">
+	Female<input type="radio" name="gender" checked=" ">
+
+  Trans<input type="radio" name="gender" checked=" "></fieldset><br></p>
+  <p><b>Societies Opted For</b></p>
+  <input type="checkbox" name="society">
+  <label for="society">Enactus</label><br>
+  <input type="checkbox" name="society">
+  <label for="society">NSS</label><br>
+  <input type="checkbox" name="society">
+  <label for="society">SRC</label><br>
+  <input type="checkbox" name="society">
+  <label for="society">FINS</label><br>
+  <input type="checkbox" name="society">
+  <label for="society">EDC</label><br>
+
+
+
+
+
+  <label for="Course"><b>Choose course:</b></label>
+
+  <select name="course">
+  
+  <option value="Bsc">Bsc</option>
+  <option value="Bcom">Bcom</option>
+  <option value="Bba">BBA</option>
+  <option value="Ba">BA</option>
+  </select>
+  <p><b>Address</b><br><textarea name="address" height="200" width="300" rows="10" cols="15"></textarea></p>
+  <p><b>Choose photo</b></p>
+  <input type="file" name="file" id="file">
+  <br><br><br>
+  <input type="submit" value="submit">
+  </form>
+  <p>Click the "Submit" button and the form-data will be sent to a page on the server called "report.php".</p>
+
+</body>
+</html>
